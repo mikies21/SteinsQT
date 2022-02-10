@@ -21,3 +21,5 @@ LazyData: true
 RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
+URL: https://github.com/mikies21/SteinsQT
+BugReports: https://github.com/mikies21/SteinsQT/issues
