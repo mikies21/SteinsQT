@@ -6,6 +6,13 @@
 #' @noRd
 app_server <- function( input, output, session ) {
   # Your application server logic 
+  updateSelectizeInput(
+    session,
+    inputId = 'Your_NFT',
+    label   = '',
+    choices = yield_data$Name
+  )
+  
   SteinsQT_selection <- reactive({input$Your_NFT})
   
   mod_home_server("home_ui_1", 
